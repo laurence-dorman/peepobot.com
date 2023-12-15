@@ -1,0 +1,58 @@
+---
+layout: default
+title: Commands
+---
+
+<h1>Commands</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Authorised</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for command in site.data.commands %}
+    <tr>
+      <td>{{ command.name }}</td>
+      <td>{{ command.authorised }}</td>
+      <td>{{ command.description }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<style>
+  .category-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .category-list li {
+    display: inline;
+  }
+  .category-list li:not(:last-child)::after {
+    content: ', ';
+  }
+</style>
+
+<h2>Player Categories</h1>
+
+<b>> To be used when using commands that use [player category]</b>
+
+<ul class="category-list">
+  {% for category in site.data.categories.player %}
+  <li>{{ category }}</li>
+  {% endfor %}
+</ul>
+
+<h2>Team Categories</h1>
+
+<b>> To be used when using commands that use [team category]</b>
+
+<ul class="category-list">
+  {% for category in site.data.categories.team %}
+  <li>{{ category }}</li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,11 @@
+[
+    {"name": "!stats [player]", "authorised": "Everyone", "description": "Returns general stats for a player"},
+    {"name": "![player category] [player]", "authorised": "Everyone", "description": "Returns [player category] stats for a player, e.g. !kills, !deaths, !gunpowder"},
+    {"name": "!top [player category]", "authorised": "Everyone", "description": "Returns the top 3 players in a category"},
+    {"name": "!bottom [player category]", "authorised": "Everyone", "description": "Returns the bottom 3 players in a category"},
+    {"name": "!parkour [player]", "authorised": "Everyone", "description": "Returns the parkour stats for a player"},
+    {"name": "!teams [team category]", "authorised": "Everyone", "description": "Returns [category] stats for a team"},
+    {"name": "!teamsonline", "authorised": "Everyone", "description": "Returns the number of members online per team"},
+    {"name": "!tags", "authorised": "Everyone", "description": "Returns the amount of tags each team has"},
+    {"name": "!online [player]", "authorised": "Everyone", "description": "Returns if the player is on the server or not"}
+]
