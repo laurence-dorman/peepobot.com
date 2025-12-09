@@ -1,12 +1,12 @@
 [
-    {"name": "!stats [player]", "authorised": "Everyone", "description": "Returns general stats for a player", "id": "player-categories"},
-    {"name": "![player category] [player]", "authorised": "Everyone", "description": "Returns [player category] stats for a player, e.g. !kills, !deaths, !gunpowder", "id": "player-categories"},
-    {"name": "!top [player category]", "authorised": "Everyone", "description": "Returns the top 3 players in a category", "id": "player-categories"},
-    {"name": "!bottom [player category]", "authorised": "Everyone", "description": "Returns the bottom 3 players in a category", "id": "player-categories"},
-    {"name": "!parkour [player]", "authorised": "Everyone", "description": "Returns the parkour stats for a player", "id": "player-categories"},
-    {"name": "!teams [team category]", "authorised": "Everyone", "description": "Returns the stats in order for each team in [category]", "id": "team-categories"},
+    {"name": "!stats [player]", "authorised": "Everyone", "description": "Returns general stats for a player"},
+    {"name": "![player category] [player]", "authorised": "Everyone", "description": "Returns [player category] stats for a player, e.g. !kills, !deaths, !gunpowder"},
+    {"name": "!top [player category]", "authorised": "Everyone", "description": "Returns the top 3 players in a category"},
+    {"name": "!bottom [player category]", "authorised": "Everyone", "description": "Returns the bottom 3 players in a category"},
+    {"name": "!parkour [player]", "authorised": "Everyone", "description": "Returns the parkour stats for a player"},
+    {"name": "!teams [team category]", "authorised": "Everyone", "description": "Returns the stats in order for each team in [category]"},
     {"name": "!teamsonline", "authorised": "Everyone", "description": "Returns the number of members online per team"},
     {"name": "!tags", "authorised": "Everyone", "description": "Returns the amount of tags each team has"},
-    {"name": "!online [player]", "authorised": "Everyone", "description": "Returns if the player is on the server or not", "id": "player-categories"},
-    {"name": "!superlatives [superlative category]", "authorised": "Everyone", "description": "Returns the top 3 teams in a superlative category", "id": "superlative-categories"}
+    {"name": "!online [player]", "authorised": "Everyone", "description": "Returns if the player is on the server or not"},
+    {"name": "!superlatives [superlative category]", "authorised": "Everyone", "description": "Returns the top 3 teams in a superlative category"}
 ]
