@@ -16,10 +16,10 @@ timezone: Europe/London
 
 title: lilpeepobot
 
-tagline: a tiny twitch chat bot
+tagline: realtime stats chatbot for twitch rivals
 
 description: >- # used by seo meta and the atom feed
-  A Twitch chat bot that posts up to date statistics for the Twitch Rust Rivals event.
+  A Twitch chat bot that posts up to date statistics in chat for the Twitch Rust Rivals event.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
