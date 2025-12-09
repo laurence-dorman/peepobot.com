@@ -6,22 +6,24 @@ title: Commands
 <h1>Commands</h1>
 
 <table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Authorised</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for command in site.data.commands %}
-    <tr>
-      <td>{{ command.name }}</td>
-      <td>{{ command.authorised }}</td>
-      <td>{{ command.description }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Authorised</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for command in site.data.commands %}
+        <tr>
+            <td>{{ command.name }}</td>
+            <td>{{ command.authorised }}</td>
+            <td>{% capture description %}{{ command.description }}{% endcapture %}
+                {% assign description = description | replace: "[player category]", "<a href='#player-categories'>player category</a>" | replace: "[team category]", "<a href='#team-categories'>team category</a>" | replace: "[superlative category]", "<a href='#superlative-categories'>superlative category</a>" %}
+                {{ description }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
 </table>
 
 <style>
@@ -37,7 +39,7 @@ title: Commands
   }
 </style>
 
-<h2>Player Categories</h1>
+<h2 href="#player-categories">Player Categories</h1>
 
 <b>> To be used when using commands that use [player category]</b>
 
@@ -47,8 +49,7 @@ title: Commands
   {% endfor %}
 </ul>
 
-<h2>Team Categories</h1>
-
+<h2 href="#team-categories">Team Categories</h1>
 <b>> To be used when using commands that use [team category]</b>
 
 <ul class="category-list">
@@ -57,7 +58,7 @@ title: Commands
   {% endfor %}
 </ul>
 
-<h2>Superlative Categories</h1>
+<h2 href="#superlative-categories">Superlative Categories</h1>
 
 <b>> To be used when using commands that use [superlative category]</b>
 
