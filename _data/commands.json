@@ -7,5 +7,6 @@
     {"name": "!teams [team category]", "authorised": "Everyone", "description": "Returns the stats in order for each team in [category]"},
     {"name": "!teamsonline", "authorised": "Everyone", "description": "Returns the number of members online per team"},
     {"name": "!tags", "authorised": "Everyone", "description": "Returns the amount of tags each team has"},
-    {"name": "!online [player]", "authorised": "Everyone", "description": "Returns if the player is on the server or not"}
+    {"name": "!online [player]", "authorised": "Everyone", "description": "Returns if the player is on the server or not"},
+    {"name": "!superlatives [superlative category]", "authorised": "Everyone", "description": "Returns the top 3 teams in a superlative category"}
 ]

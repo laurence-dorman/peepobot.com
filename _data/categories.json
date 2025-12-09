@@ -60,5 +60,17 @@
         "sulfurnodes",
         "nodes",
         "online"
+    ],
+    "superlatives": [
+        "sulfur",
+        "cloth",
+        "leather",
+        "explosives",
+        "gunpowder",
+        "meds",
+        "guns",
+        "ammo",
+        "teas_pies",
+        "animals"
     ]
 }
