@@ -23,9 +23,7 @@ title: Commands
             </td>
             <td>{{ command.authorised }}</td>
             <td>
-                {% capture description %}{{ command.description }}{% endcapture %}
-                {% assign description = description | replace: "[player category]", "<a href='#player-categories'>player category</a>" | replace: "[team category]", "<a href='#team-categories'>team category</a>" | replace: "[superlative category]", "<a href='#superlative-categories'>superlative category</a>" %}
-                {{ description }}
+                {{ command.description }}
             </td>
         </tr>
         {% endfor %}
