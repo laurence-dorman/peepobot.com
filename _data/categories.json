@@ -74,7 +74,7 @@
         "teas_pies",
         "animals"
     ],
-    "subEvents": [
+    "subevents": [
         "kills",
         "deaths",
         "damageDone"
