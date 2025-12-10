@@ -18,7 +18,7 @@ title: Commands
         <tr>
             <td>
                 {% capture name %}{{ command.name }}{% endcapture %}
-                {% assign name = name | replace: "[player category]", "<a href='#player-categories'>[player category]</a>" | replace: "[team category]", "<a href='#team-categories'>[team category]</a>" | replace: "[superlative category]", "<a href='#superlative-categories'>[superlative category]</a>" %}
+                {% assign name = name | replace: "[player category]", "<a href='#player-categories'>[player category]</a>" | replace: "[team category]", "<a href='#team-categories'>[team category]</a>" | replace: "[superlative category]", "<a href='#superlative-categories'>[superlative category]</a>" | replace: "[subevent category]", "<a href='#subevent-categories'>[subevent category]</a>" %}
                 {{ name }}
             </td>
             <td>{{ command.authorised }}</td>
@@ -68,6 +68,16 @@ title: Commands
 
 <ul class="category-list">
   {% for category in site.data.categories.superlatives %}
+  <li>{{ category }}</li>
+  {% endfor %}
+</ul>
+
+<h2 id="subevent-categories">Subevent Categories</h2>
+
+<b>> To be used when using commands that use [subevent category]</b>
+
+<ul class="category-list">
+  {% for category in site.data.categories.subevents %}
   <li>{{ category }}</li>
   {% endfor %}
 </ul>
