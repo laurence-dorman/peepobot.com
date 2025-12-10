@@ -1,7 +1,6 @@
 [
     {"name": "!stats [player]", "authorised": "Everyone", "description": "Returns general stats for a player"},
     {"name": "![player category] [player]", "authorised": "Everyone", "description": "Returns [player category] stats for a player, e.g. !kills, !deaths, !gunpowder"},
-    {"name": "!combatlog [player]", "authorised": "Everyone", "description": "Returns the latest combat log entry for a player"},
     {"name": "!top [player category]", "authorised": "Everyone", "description": "Returns the top 3 players in a category"},
     {"name": "!bottom [player category]", "authorised": "Everyone", "description": "Returns the bottom 3 players in a category"},
     {"name": "!parkour [player]", "authorised": "Everyone", "description": "Returns the parkour stats for a player"},
