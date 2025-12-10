@@ -25,7 +25,8 @@
         "stonenodes",
         "metalnodes",
         "sulfurnodes",
-        "nodes"
+        "nodes",
+        "parkour"
     ],
     "team": [
         "crates",
