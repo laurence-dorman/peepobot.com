@@ -73,5 +73,10 @@
         "ammo",
         "teas_pies",
         "animals"
+    ],
+    "subEvents": [
+        "kills",
+        "deaths",
+        "damageDone"
     ]
 }

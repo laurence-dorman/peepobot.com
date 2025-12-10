@@ -10,5 +10,7 @@
     {"name": "!tags", "authorised": "Everyone", "description": "Returns the amount of tags each team has"},
     {"name": "!online [player]", "authorised": "Everyone", "description": "Returns if the player is on the server or not"},
     {"name": "!superlatives [superlative category]", "authorised": "Everyone", "description": "Returns the top 3 teams in a superlative category"},
-    {"name": "!superlatives", "authorised": "Everyone", "description": "Returns the #1 team in each superlative category"}
+    {"name": "!superlatives", "authorised": "Everyone", "description": "Returns the #1 team in each superlative category"},
+    {"name": "!subevent [subevent category]", "authorised": "Moderators", "description": "Subscribes the channel to realtime event updates in that category"},
+    {"name": "!unsubevent [subevent category]", "authorised": "Moderators", "description": "Unsubscribes the channel from realtime event updates in that category"}
 ]
