@@ -15,7 +15,7 @@ timezone: Europe/London
 # ↓ --------------------------
 
 title: lilpeepobot
-tagline: realtime stats chatbot for twitch rivals owned by <a href="https://twitch.tv/lilliliza" style="font-weight\: bolder;font-size\: 125%;color\: rgb(255, 184, 223);text-decoration\: underline;">lilliliza LLC</a>
+tagline: 'realtime stats chatbot for twitch rivals owned by <a href="https://twitch.tv/lilliliza" style="font-weight: bolder;font-size: 125%;color: rgb(255, 184, 223);text-decoration: underline;">lilliliza LLC</a>'
 
 description: >- # used by seo meta and the atom feed
   A Twitch chat bot that posts up to date statistics in chat for the Twitch Rust Rivals event.
